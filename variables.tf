@@ -1,26 +1,21 @@
-## project variables
 variable "project_name" {
-    type = string
+  type = string
 }
 
 variable "environment" {
-    default = "dev"
-  
+  type = string
 }
 
 variable "sg_name" {
-    type = string
-  
+  type = string
 }
 
 variable "sg_description" {
-    type = string
-  
+  type = string
 }
 
 variable "vpc_id" {
-    type = string
-  
+  type = string
 }
 
 variable "common_tags" {
@@ -48,4 +43,3 @@ variable "ingress_rules" {
   type = list
   default = []
 }
-
